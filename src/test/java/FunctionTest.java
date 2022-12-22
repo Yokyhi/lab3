@@ -12,4 +12,10 @@ public class FunctionTest {
     public void functionResult(){
         Assertions.assertEquals(10.0, Function.func(),0.5);
     }
+
+    @Test
+    public void nCheck(){
+        boolean check = Function.getX() > 0;
+        Assertions.assertEquals(false, check);
+    }
 }
