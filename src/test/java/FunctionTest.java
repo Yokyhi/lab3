@@ -16,6 +16,6 @@ public class FunctionTest {
     @Test
     public void nCheck(){
         boolean check = Function.getX() > 0;
-        Assertions.assertEquals(false, check);
+        Assertions.assertEquals(true, check);
     }
 }
